@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+}
+#toolbar{
+    background-color:black;
+    padding: auto;
+    height: 45px;
+}
+.search-box{
+    height:200px ;
+    position: absolute;
+    right: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+input{
+    border: 2px solid rosybrown;
+    height: 20px;
+    width: 180px;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+nav{
+  background-color: #6e0023;
+  height: 40px;
+  text-align: center;
+}
+nav a{  
+    color: white;
+    display:inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+#thanhQC{
+  background-color: whitesmoke;
+  text-align: center;
+}
+#main{
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex-direction: row;
+}
+.left ul{
+  list-style: none;
+  line-height: 2;
+}
+.left li{
+  padding-left: 10px;
+  font-size: 13px;
+}
+.left li a{
+  text-decoration: none;
+  color: black;
+}
+.left h2 a{
+  text-decoration: none;
+  color: black;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+}
+.right-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right-top a{
+  text-decoration: none;
+  color: red
+}
+.right-undertop{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+.right-undertop h4{
+  text-align: center;
+  padding-bottom: 8px;
+}
+.right-undertop a{
+  font-size: medium;  
+  color: red;
+  padding-bottom: 8px;
+  text-decoration: none;
+}
+.right-undertop p{
+  text-align: center;
+}
+#footer{
+  height: 300px;
+  color: white;
+}
+#footer-menu{
+  text-align: center;
+  background-color:#6e0023;
+  padding: 10px 0;
+}
+#footer-menu ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+#footer-menu ul li{
+  display: inline-block;
+  font-size: 14px;
+}
+.footer-undermenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 120px;
+  line-height: 1.5;
+}
+.footer-undermenu ul{
+  list-style: none;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.content-1{
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.content-3{
+  background-color:	#7AC5CD;
+  color: black;
+  height: 80px;
+}
